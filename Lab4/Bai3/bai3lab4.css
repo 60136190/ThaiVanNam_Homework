@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+	box-sizing: border-box; 
+}
+
+body {
+	background: #c49959;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	height: 900px;
+	
+}
+
+h1 {
+	font-weight: bold;
+	margin: 0;
+}
+
+h2 {
+	text-align: center;
+}
+
+button {
+	border-radius: 20px;
+	border: 1px solid #22d6ee;
+	background-color: #22d6ee;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+}
+
+button:active {
+	transform: scale(0.95);
+}
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+	border-color: #FFFFFF;
+}
+
+form {
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	height: 650px;
+    width: 550px;
+	align-items: center;
+    margin-left: 150px;
+	text-align: center;
+	
+    
+}
+
+input {
+	background-color: #eee;
+	border: none;
+	width: 100%;
+	margin : -40px;
+	height: 20px;
+
+	
+}
+
+.container {
+	background-color: #fff;
+	border-radius: 10px;
+  	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+	position: relative;
+	overflow: hidden;
+	width: 868px;
+	max-width: 100%;
+	
+height: 930px;
+}
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+	
+
+}
+
+.sign-in-container {
+	left: 0;
+	width: 50%;
+	z-index: 2;
+}
+#doso{
+	width: 150px;
+	height: 80px;
+	margin: 10px;
+}
+
+#doso1{
+	background-color: #FF4B2B;
+	width: 150px;
+	height: 80px;
+	margin-top: 10px;
+}
+
+#back{
+	margin-top: 90px;
+	padding: 40px;
+}
