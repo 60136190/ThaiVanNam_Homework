@@ -1,0 +1,55 @@
+/*==Reset CSS==*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+#than{
+  background-image: url(../QLNV/53fe8045b3d43c499a7eca4345e0d9e2.jpg);
+  background-repeat: repeat;
+  background-size: 1800px 900px;
+}
+  
+  
+  /*==Style cơ bản cho website==*/
+  body {
+    font-family: sans-serif;
+    color: #333;
+  }
+  /*==Style cho menu===*/
+#menu ul {
+    background: #3d3c37;
+    list-style-type: none;
+    text-align: center;
+  } 
+  #menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 50px;
+  }
+  #menu li {
+    color: #f1f1f1;
+    float: left;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+
+  #menu ul {
+    background: #797978;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+  }
+  #menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  #menu a:hover {
+    background: #F1F1F1;
+    color: #333;
+  }

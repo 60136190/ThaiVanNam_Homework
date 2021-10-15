@@ -1,0 +1,53 @@
+/*==Reset CSS==*/
+* {
+    margin: 0;
+    padding: 0;
+  }
+#than{
+    background-color: rgb(189, 222, 238);
+}
+  
+  
+  /*==Style cơ bản cho website==*/
+  body {
+    font-family: sans-serif;
+    color: #333;
+  }
+  /*==Style cho menu===*/
+#menu_tracuu ul {
+    background: #3d3c37;
+    list-style-type: none;
+    text-align: center;
+  } 
+  #menu_them  li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 260px;
+  }
+  #menu_them  li {
+    color: #f1f1f1;
+    float: left;
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+  }
+  
+
+  #menu_them   ul {
+    background: #fcfcf9;
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+  }
+  #menu_them   a {
+    text-decoration: none;
+    color: rgb(93, 141, 231);
+    display: block;
+  }
+  #menu_them   a:hover {
+    background: #F1F1F1;
+    color: rgb(245, 174, 174);
+  }
