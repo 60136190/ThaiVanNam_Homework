@@ -7,7 +7,7 @@
 <body>
 <?php 
 // Ket noi CSDL
-require("connect.php");
+require("trangchu.php");
 // Chuan bi cau truy van & Thuc thi cau truy van
 $strSQL = "SELECT * FROM loainv";
 $result = mysqli_query($dbc,$strSQL);
@@ -17,12 +17,13 @@ if(mysqli_num_rows($result) == 0)
 	echo "Chưa có dữ liệu";
 }
 else
-{	echo "<h1 style='color: #003366;' align='center'>THÔNG TIN LOẠI NHÂN VIÊN</h1>
-		  <table align='center' width='800' border='1' cellpadding='2' cellspacing='2' 
-				style='border-collapse: collapse;'>
-		  	<tr style='background-color: #66CC99;' align='center'>
+{	echo "<h1 style='color: #003366;margin-top:30px' align='center'>THÔNG TIN LOẠI NHÂN VIÊN</h1>
+		  <table align='center' width='800' height='150px' border='2'  
+				style='border-collapse: collapse; margin-left:430px; margin-top:30px;'>
+		  	<tr style='background-color: #18c9c9;' align='center'>
 				<td><b>Mã Loại Nhân Viên</b></td>
 				<td><b>Tên Loại Nhân Viên</b></td>
+			
 			
 		  	</tr>";
 	$stt=1;
@@ -30,17 +31,19 @@ else
 	{
 		if($stt%2!=0)
 		{
-            echo "<tr>";
+			echo "<tr align='center' >";
 			echo "<td>$row[0]</td>";
 			echo "<td>$row[1]</td>";
+			
 		
 			echo "</tr>";
 		}
 		else
 		{
-			echo "<tr style='background-color: #ffb1007a;'>";
+			echo "<tr style='background-color: #b3b7b6;' align='center' >";
 			echo "<td>$row[0]</td>";
 			echo "<td>$row[1]</td>";
+			
 		
             
 			echo "</tr>";

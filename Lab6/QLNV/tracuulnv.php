@@ -8,11 +8,11 @@
 
 <form action="" method="get">
 <?php
-	require('connect.php');
+	require('trangchu.php');
 	?>
 
 <table id="tracuu" bgcolor="#eeeeee" align="center" width="70%" border="1" 
-	   cellpadding="5" cellspacing="5" style="border-collapse: collapse;">
+	   cellpadding="5" cellspacing="5" style="border-collapse: collapse;margin-left:230px; margin-top:30px;">
 
 <tr>
 	<td align="center"><font color="blue"><h3>TÌM KIẾM THÔNG TIN LOẠI NHÂN VIÊN</h3></font></td>
@@ -47,7 +47,7 @@ if($_SERVER['REQUEST_METHOD']=='GET')
 				echo '<table border="1" cellpadding="5" cellspacing="5" style="border-collapse:collapse;">
 					<tr bgcolor="#eeeeee"><td colspan="2" align="center"><h3>'.
 						$row['TENLOAINV'].' - '.$row['TEN'].'</h3></td></tr>';
-				echo '<tr><td width="200" align="center"><img src="Hinh_sua/'.$row['ANH'].'"/></td>';
+				echo '<tr><td width="200" align="center"><img src="Hinh_nv/'.$row['ANH'].'"/></td>';
 				echo '<td><i><b>Địa chỉ:</i></b><br />'.$row['DIACHI'].'<br />';
 				echo '<i><b>Giới Tính:</b></i>'.$row['GIOITINH'].'<br />';
 				echo '</td></tr></table>';

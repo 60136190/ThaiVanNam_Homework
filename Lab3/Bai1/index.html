@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="bai1.css">
+        <title> Demo form php</title>
+       
+    </head>
+    <body>
+     
+        <h2>Bài 1</h2>
+        <div class="container" id="container">
+          
+            <div class="form-container sign-in-container">
+                <form action="" method="POST" name="form">
+                    <h1>Tính Diện Tích</h1>
+                    <input name="chieudai" type="number" placeholder="Chiều dài" />
+                    <input name="chieurong" type="number" placeholder="Chiều rộng" />
+                    <p>$ketqua</p>
+                    <button name="botton">Tính toán</button>
+                    
+                </form>
+               
+            </div>
+        
+        </div>
+        
+        <?php
+        $name = $_RE['chieudai'];
+        $email = $_POST['chieurong'];
+        $ketqua = $_POST['dientich'];
+    
+        $ketqua = $name*$email ;
+
+      
+    
+            ?>
+    </body>
+</html>

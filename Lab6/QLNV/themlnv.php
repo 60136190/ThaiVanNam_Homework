@@ -2,14 +2,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="themthongtin.css">
 <title>Thêm loại nhân viên</title>
 </head>
 <body>
 <?php 
-require('connect.php');
+require('trangchu.php');
 ?>
-<form action="" method="post" enctype="multipart/form-data">
-<table bgcolor="#eeeeee" align="center" width="60%" border="0">
+<form id="hihi" action="" method="post" enctype="multipart/form-data">
+<table id="bang" bgcolor="#eeeeee" align="center" width="60%" border="0"   margin-left="100px";>
 <tr bgcolor="#eeee10">
 	<td colspan="2" align="center"><font color="blue"><h2>THÊM LOẠI NHÂN VIÊN</h2></font></td>
 </tr>

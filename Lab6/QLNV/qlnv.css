@@ -8,12 +8,17 @@
   background-repeat: repeat;
   background-size: 1800px 900px;
 }
+ #bang{
+   margin-left: 100px;
+
   
+ }
   
   /*==Style cơ bản cho website==*/
   body {
     font-family: sans-serif;
     color: #333;
+   
   }
   /*==Style cho menu===*/
 #menu ul {
@@ -39,7 +44,7 @@
   
 
   #menu ul {
-    background: #797978;
+    background: #646162;
     list-style-type: none;
     overflow: hidden;
     width: 100%;

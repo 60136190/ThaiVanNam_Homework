@@ -8,14 +8,14 @@
 
 <form action="" method="get">
 <?php
-	require('connect.php');
+	require('trangchu.php');
 	?>
 
 <table id="tracuu" bgcolor="#eeeeee" align="center" width="70%" border="1" 
-	   cellpadding="5" cellspacing="5" style="border-collapse: collapse;">
+	   cellpadding="5" cellspacing="5" style="border-collapse: collapse;margin-left:230px; margin-top:30px;">
 
 <tr>
-	<td align="center"><font color="white"><h3>TÌM KIẾM THÔNG TIN NHÂN VIÊN</h3></font></td>
+	<td align="center"><font color="blue"><h3>TÌM KIẾM THÔNG TIN NHÂN VIÊN</h3></font></td>
 </tr>
 <tr>
 	<td align="center">Tên nhân viên: <input type="text" name="tennv" size="30" 

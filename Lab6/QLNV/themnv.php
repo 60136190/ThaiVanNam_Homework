@@ -2,14 +2,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="themthongtin.css">
 <title>Thêm nhân viên</title>
 </head>
 <body>
 <?php 
-require('connect.php');
+require('trangchu.php');
 ?>
-<form action="" method="post" enctype="multipart/form-data">
-<table bgcolor="#eeeeee" align="center" width="60%" border="0">
+<form id="hihi" action="" method="post" enctype="multipart/form-data">
+<table bgcolor="#eeeeee" align="center"  width="60%" border="0" >
 <tr bgcolor="#eeee10">
 	<td colspan="2" align="center"><font color="blue"><h2>THÊM NHÂN VIÊN MỚI</h2></font></td>
 </tr>
@@ -166,6 +167,10 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
 				echo '<table align="center" border="1" cellpadding="5" cellspacing="5" style="border-collapse:collapse;">
 						<tr bgcolor="#eeeeee"><td colspan="2" align="center"><h3>'.$row['TEN'].' - '.$row['MAPHONG'].'</h3></td></tr>';
 					echo '<tr><td><img src="Hinh_nv/'.$row['ANH'].'"/></td>';
+					echo "name: " .$_FILES["hinh"]["name"]."<br>";
+echo "type: " .$_FILES["hinh"]["type"]."<br>";
+echo "size: " .($_FILES["hinh"]["size"]/1024)."Kb<br>";
+echo "temp. Stored in: ".$_FILES["hinh"]["tmp_name"];
 								
 										echo '</td></tr></table>';				
 			}

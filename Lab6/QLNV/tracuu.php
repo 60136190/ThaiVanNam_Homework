@@ -9,7 +9,7 @@
 
 
 <?php
-	require('connect.php');
+	require('trangchu.php');
 	?>
 
 <div id="menu_tracuu">
